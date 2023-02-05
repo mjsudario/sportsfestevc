@@ -1,0 +1,41 @@
+(Suggestions/Notes)
+
+1. jersey design as bg
+
+2. ||Sport, Boys/Girls/Mixed, Category, House vs House||
+layout? https://ibb.co/9ZJw5W3
+with respect to the assigned house, cells will be highlighted with the following legend:
+  - gray (upcoming game)
+  - yellow (ongoing game)
+  - red (lost game) ✌
+  - green (won game) 👊
+
+3. feedback button/redirectory
+
+4. might need to create 2 calendars/schedules [major, minor, and esports (11 games)] and [junior (11 games)]
+
+5. Image carousel on main page (maybe displays the houses idk)
+
+6. what if we assign people into groups that focus on a specific part of the webpage (html,css,js.adroind compatibility,assets,etc)
+  
+  * pwede pero feel ko magiging messy kay no css and javascript without html & 
+  android compatibility will need css and javascript. pero maybe one group of people who would
+  focus on one webpage would be more organized
+  
+7. House page format:
+    - House character (left side) description (right side)
+    - Games schedule (Below House character and description) //refer to suggestion 2
+    - Insert motivational house charcter chibi gif (Somewhere)
+
+8. Cookies for last selected house on image carousel
+
+9. little (i) icon on words like CAT A, CAT B, and CAT C which prompts the user which batches fall under cat a b and c
+
+10. pages for booths and stalls
+
+11. FREEDOM WALL!!
+
+  
+  
+  Helo
+r

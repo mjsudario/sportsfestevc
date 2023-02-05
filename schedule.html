@@ -1,0 +1,272 @@
+<!--https://docs.google.com/spreadsheets/d/17zBFXxS9RnUco5oRgZBdWQ8m9kUQVWdHdgUAzqYaIPo/edit#gid=1348640838-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="icon"
+      href="https://cdn.glitch.global/0b51df57-1a70-466d-b8be-650e7d370d4f/SF%20logo.png?v=1664153304926"
+    />
+    <title>Sportsfest 2022</title>
+
+    <!-- IDK WHAT THIS DOES PLS DONT DELETE -->
+    <link rel="canonical" href="https://the-charitesia.glitch.me/" />
+    <meta
+      name="description"
+      content="Official website for Sportsfest 2022 - Let the revelry begin!"
+    />
+
+    <meta name="robots" content="index,follow" />
+    <meta property="og:title" content="Sportsfest Schedule 2022" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://the-charitesia.glitch.me/" />
+    <meta
+      property="og:description"
+      content="Official website for Sportsfest 2022 - Let the revelry begin!"
+    />
+    <meta
+      property="og:image"
+      content="https://cdn.glitch.global/0b51df57-1a70-466d-b8be-650e7d370d4f/SF%20logo.png?v=1664153304926"
+    />
+    <meta name="twitter:card" content="summary" />
+
+    <!--------IMPORTS CSS AND JAVASCRIPT-------->
+    <link rel="stylesheet" href="/style.css" />
+
+    <script src="/script.js" defer></script>
+
+    <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <div class="loader"></div>
+  </head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
+
+  <!---------------------------------------------------START OF BODY---------------------------------------------------->
+  <script>
+    $(window).load(function () {
+      $(".loader").fadeOut(2000);
+    });
+  </script>
+  <body>
+    <div class="wrapper">
+      <div class="content" role="main">
+        <!--------START OF PAGE CONTENT------------->
+
+        <!--------------NAVIGATION------------------>
+        <header class="navBar">
+          
+          <a href="https://the-charitesia.glitch.me/">
+            <div class="siteName">
+              <img
+                id="titlepic"
+                src="https://cdn.glitch.global/0b51df57-1a70-466d-b8be-650e7d370d4f/SF%20logo.png?v=1664153304926"
+              />
+              <h3 class="Ttitle">SPORTSFEST 2022</h3>
+            </div>
+          </a>
+          <div class="middleimg">
+            <img
+              id="middlepic"
+              src="https://cdn.glitch.global/0b51df57-1a70-466d-b8be-650e7d370d4f/charitesia.png?v=1665192239519"
+              onclick="helloThere();"
+            />
+          </div>
+
+          <div class="topnavShadow" id="topnavShadow"></div>
+          <nav class="topnav" id="myTopnav">
+            <a
+              href="javascript:void(0);"
+              class="tIcon tLinks"
+              id="nIcon"
+              onclick="dropDown();"
+            >
+                <i class="fa fa-bars"></i>
+            </a>
+            <a href="javascript:void(0);" class="tDummy"></a>
+            <a href="socialmedia.html" class="tLinks"> SOCIAL MEDIA </a>
+            <a href="https://freedom-wall.000webhostapp.com" class="tLinks">FREEDOM WALL</a>
+            <a href="javascript:void(0);" class="tFiller"></a>
+          </nav>
+        </header>
+
+        <!--------------END OF NAVIGATION------------------>
+        <div class="UnivHomeButton">
+          <a href="index.html">
+            <button id="HomeButton">
+              <img
+                id="HomeIcon"
+                src="https://cdn.glitch.global/0b51df57-1a70-466d-b8be-650e7d370d4f/homebutton.png?v=1673515717003"
+              />
+            </button>
+          </a>
+        </div>
+        <div class="schedule-show">
+          <div class="buttons">
+            <p class="day-change-button" onclick="changeDay(0)">Day 1</p>
+            <p class="day-change-button" onclick="changeDay(1)">Day 2</p>
+            <p class="day-change-button" onclick="changeDay(2)">Day 3</p>
+            <p class="day-change-button" onclick="changeDay(3)">Day 4</p>
+            <p class="day-change-button" onclick="changeDay(4)">Day 5</p>
+          </div>
+
+          <div class="bottom-part">
+            <div class="change-sched-button" onclick="changeSched(-1)">
+              <p class="arrow left"></p>
+            </div>
+
+            <div class="schedule-wrapper">
+              <div class="schedules-container">
+                <h2>Major Games</h2>
+            
+                <div class="image-container">
+                  <div class="day-1">
+                    <img class="schedule-photo" 
+                         src="https://cdn.glitch.global/0b51df57-1a70-466d-b8be-650e7d370d4f/major-day1?v=1674909149461"
+                         alt="Day 1 Minor games Schedule">
+                    
+                  </div>
+                  <div class="day-2">
+                    <img class="schedule-photo" 
+                         src="https://cdn.glitch.global/0b51df57-1a70-466d-b8be-650e7d370d4f/major-day2-1.jpg?v=1675111246990"
+                         alt="Day 2 Mahor games Schedule">
+
+                    <img class="schedule-photo"
+                         src="https://cdn.glitch.global/0b51df57-1a70-466d-b8be-650e7d370d4f/major-day2-2.jpg?v=1675111201726"
+                         alt="Day 2 Mahjor games Schedule">
+                  </div>
+
+                  <div class="day-3">
+                    <img class="schedule-photo" src="#" alt="Day 3 Major games Schedule">
+                  </div>
+                  
+                  <div class="day-4">
+                    <img class="schedule-photo" src="#" alt="Day 4 Major games Schedule">
+                  </div>
+                  
+                  <div class="day-5">
+                    <img class="schedule-photo" src="#" alt="Day 5 Major games Schedule">
+                  </div>
+
+                </div>
+              </div>
+
+              <div class="schedules-container">
+                <h2>Minor Games</h2>
+
+                <div class="image-container">
+                  <div class="day-1">
+                    <img class="schedule-photo" src="#" alt="Day 1 Minor games Schedule">
+                  </div>
+                  
+                  <div class="day-2">
+                    <img class="schedule-photo"
+                         src="https://cdn.glitch.global/0b51df57-1a70-466d-b8be-650e7d370d4f/minor-day2-1.jpg?v=1675111193006"
+                         alt="Day 2 Minor games Schedule">
+                    <img class="schedule-photo"
+                         src="https://cdn.glitch.global/0b51df57-1a70-466d-b8be-650e7d370d4f/minor-day2-2.jpg?v=1675111189682"
+                         alt="Day 2 Minor games Schedule">
+                  </div>
+
+                  <div class="day-3">
+                    <img class="schedule-photo" src="#" alt="Day 3 Minor games Schedule">
+                  </div>
+                  
+                  <div class="day-4">
+                    <img class="schedule-photo" src="#" alt="Day 4 Minor games Schedule">
+                  </div>
+                  
+                  <div class="day-5">
+                    <img class="schedule-photo" src="#" alt="Day 5 Minor games Schedule">
+                  </div>
+                </div>
+              </div>
+
+              <div class="schedules-container">
+                <h2>Junior Games</h2>
+
+                <div class="image-container">
+                  <div class="day-1">
+                    <img class="schedule-photo" src="#" alt="Day 1 Junior games Schedule">
+                  </div>
+                  
+                  <div class="day-2">
+                    <img class="schedule-photo"
+                         src="https://cdn.glitch.global/0b51df57-1a70-466d-b8be-650e7d370d4f/junior-day2-1.jpg?v=1675111185610"
+                         alt="Day 2 Junior games Schedule">
+                    <img class="schedule-photo"
+                         src="https://cdn.glitch.global/0b51df57-1a70-466d-b8be-650e7d370d4f/junior-day2-2.jpg?v=1675111182649"
+                         alt="Day 2 Junior games Schedule">
+                    <img class="schedule-photo"
+                         src="https://cdn.glitch.global/0b51df57-1a70-466d-b8be-650e7d370d4f/junior-day2-3.jpg?v=1675111180060"
+                         alt="Day 2 Junior games Schedule">
+                  </div>
+
+                  <div class="day-3">
+                    <img class="schedule-photo" src="#" alt="Day 3 Junior games Schedule">
+                  </div>
+                  
+                  <div class="day-4">
+                    <img class="schedule-photo" src="#" alt="Day 4 Junior games Schedule">
+                  </div>
+                  
+                  <div class="day-5">
+                    <img class="schedule-photo" src="#" alt="Day 5 Junior games Schedule">
+                  </div>
+                </div>
+              </div>
+
+              <div class="schedules-container">  
+                <h2>E-games</h2>
+
+                <div class="image-container">
+                  <div class="day-1">
+                    <img class="schedule-photo" src="#" alt="Day 1 E-games Schedule">
+                  </div>
+                  
+                  <div class="day-2">
+                    <img class="schedule-photo"
+                         src="https://cdn.glitch.global/0b51df57-1a70-466d-b8be-650e7d370d4f/egame-day2-1.jpg?v=1675111178967"
+                         alt="Day 2 E-games Schedule">
+                  </div>
+
+                  <div class="day-3">
+                    <img class="schedule-photo" src="#" alt="Day 3 E-games Schedule">
+                  </div>
+                  
+                  <div class="day-4">
+                    <img class="schedule-photo" src="#" alt="Day 4 E-games Schedule">
+                  </div>
+                  
+                  <div class="day-5">
+                    <img class="schedule-photo" src="#" alt="Day 5 E-games Schedule">
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="change-sched-button" onclick="changeSched(1)">
+              <p class="arrow right"></p>
+            </div>
+          </div>
+        </div>
+        <div class="footer-basic" >
+          <footer>
+            <div class="social">
+              <a href="https://www.instagram.com/evc2025/"><i class="fa fa-instagram"></i></a>
+              <a href="https://twitter.com/EVC2025"><i class="fa fa-twitter"></i></a>
+              <a href="https://www.facebook.com/acpshsevc/"><i class="fa fa-facebook-official"></i></a>
+            </div> 
+            <p class="copyright">Athletic Council © 2022</p>
+            <p class="copyright">@ebbysebb @fiona.nadine_ @ellizar._.zabala<br>@joshuwasudario @jjjosol3690</p>
+            <p class="copyright">Brought to you by the scholars of PSHS-EVC</p>
+          </footer>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
